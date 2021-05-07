@@ -7,13 +7,13 @@
 To install the dependencies, run the following at the command line:
 
 ```
-pip install jupyter matplotlib pandas numpy sklearn graphviz
+pip install numpy==1.19.2 tensorflow keras jupyter matplotlib pandas sklearn graphviz
 ```
 
 Or in a Jupyter notebook:
 
 ```
-!pip install jupyter matplotlib pandas numpy sklearn graphviz
+!pip install numpy==1.19.2 tensorflow keras jupyter matplotlib pandas numpy sklearn graphviz
 ```
 
 ### Getting the notebooks
