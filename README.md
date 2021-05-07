@@ -24,11 +24,11 @@ To get the notebooks that make up this course, either use git to clone the repos
 git clone https://github.com/ualberta-rcg/python-machine-learning.git
 ```
 
-... or click here to download from your browser: <https://github.com/ualberta-rcg/python-machine-learning/archive/master.zip>
+... or click here to download from your browser: <https://github.com/ualberta-rcg/python-machine-learning/archive/main.zip>
 
 ... or run the following in a Jupyter notebook:
 
 ```
-!wget -O python-plotting-master.zip https://github.com/ualberta-rcg/python-machine-learning/archive/master.zip
+!wget -O python-machine-learning.zip https://github.com/ualberta-rcg/python-machine-learning/archive/main.zip
 !unzip python-machine-learning.zip
 ```
