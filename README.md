@@ -28,17 +28,20 @@ git clone https://github.com/ualberta-rcg/python-machine-learning.git
 ... or run the following in a Jupyter notebook:
 
 ```
-# Downloads and extracts to python-machine-learning-master directory
-# Warning (overwrites notebooks if they exist)
+# Warning, might overwrite notebooks if they exist
 import os, urllib.request, zipfile
 def get_notebooks():
-  url = 'https://github.com/ualberta-rcg/python-machine-learning/archive/master.zip'
-  zip_file = 'python-machine-learning.zip'
+  repo = 'python-machine-learning'
+  branch = 'main'
+  repo_url = 'https://github.com/ualberta-rcg/{}'.format(repo)
+  zip_url = '{}/archive/{}.zip'.format(repo_url, branch)
+  zip_file = '{}.zip'.format(repo)
+  output_dir = '{}-{}'.format(repo, branch)
   if os.path.exists(zip_file): return
-  urllib.request.urlretrieve(url, zip_file)
+  urllib.request.urlretrieve(zip_url, zip_file)
   with zipfile.ZipFile(zip_file) as zip_ref:
     zip_ref.extractall()
-
+  print('Downloaded to {} in {} directory'.format(output_dir, os.getcwd()))
 get_notebooks()
 ```
 
