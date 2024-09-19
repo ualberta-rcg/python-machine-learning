@@ -51,11 +51,11 @@ To install the dependencies (not needed on Colab), run the following at
 the command line (preferably in a python virtual environment):
 
 ```
-pip install tensorflow keras jupyter matplotlib pandas sklearn graphviz
+pip install tensorflow keras jupyter matplotlib pandas scikit-learn graphviz
 ```
 
 Or in a Jupyter notebook:
 
 ```
-!pip install tensorflow keras jupyter matplotlib pandas numpy sklearn graphviz
+!pip install tensorflow keras jupyter matplotlib pandas numpy scikit-learn graphviz
 ```
