@@ -5,7 +5,7 @@
 ### Getting the notebooks
 
 To get the notebooks that make up this course, you can either use them in
-Google Colab, or download them to your own computer.
+[Google Colab](https://colab.research.google.com), or download them to your own computer.
 
 #### Opening notebooks on Colab:
 
@@ -14,6 +14,9 @@ Google Colab, or download them to your own computer.
   * Organization: ualberta-rcg (important: press enter)
   * Repository: ualberta-rcg/python-machine-learning
   * Choose the notebook you want
+
+Here is a direct link to the first notebook in Colab:
+<https://colab.research.google.com/github/ualberta-rcg/python-machine-learning/blob/main/notebooks/01-intro-classification.ipynb>
 
 #### Getting notebooks on your computer:
 
