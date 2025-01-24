@@ -11,7 +11,7 @@ train_df = pd.read_csv('data/titanic/train.csv')
 
 # Choose features and lables
 features = ["Pclass", "Sex", "SibSp", "Parch"]
-X = pd.get_dummies(train_df[features], drop_first=True)
+X = pd.get_dummies(train_df[features], dtype='int64', drop_first=True)
 y = train_df['Survived']
 
 # Split data into training and test data
